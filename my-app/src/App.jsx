@@ -1,27 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-
-function Header() {
-  return <header className="header">Header</header>;
-}
-
-function Content() {
-  return <main className="content">Ini adalah konten utama.</main>;
-}
-
-function Footer() {
-  return <footer className="footer">Footer</footer>;
-}
-
-function Greeting() {
-  const [name] = useState("Digital Talent Indonesia");
-
-  return (
-    <div className="greeting">
-      <h2>Halo, {name}!</h2>
-    </div>
-  );
-}
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
+import Greeting from "./components/Greeting";
 
 function App() {
   return (
