@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+}
+.header, .footer{
+   background : green; 
+   color : white;
+   padding: 10px;
+}
+
+.container{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.content{
+    padding : 20px;
+}
